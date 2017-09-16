@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta  charset="utf-8" />
+	<title>Untitled Document</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/font.css" />
+</head>
+<body>
+	<div class="header">
+	</div>
+	<div class="content">
+		Выберите город ОТПРАВКИ:
+		<br>
+		<select id="fromCity"></select>
+		<br>
+		Выберите город ДОСТАВКИ:
+		<br>
+		<select id="toCity"></select>
+		<br><br>
+		Вес доставки: <input id="weight" type="text" value=""/>
+		<br>
+		<div id="maxWeight">Максимальный возможный вес: </div>
+		<br>
+		<button id="calc">Рассчитать стоимость</button>
+		<br>
+	</div>
+	<br>
+	<div id="reply">
+		<div id="result"></div>
+	</div>
+	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
